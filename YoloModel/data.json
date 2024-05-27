@@ -1,0 +1,277 @@
+{
+  "detections": [
+    {
+      "resolution": "384x640",
+      "objects": {
+        "SSDs": 4,
+        "USBs": 4,
+        "Cameras": 5,
+        "Camcorders": 3
+      },
+      "timing": {
+        "preprocess": 10.4,
+        "inference": 183.2,
+        "postprocess": 1.5,
+        "total": 195.1
+      }
+    },
+    {
+      "resolution": "640x448",
+      "objects": {
+        "SSDs": 1,
+        "HDDs": 1,
+        "Laptops": 1
+      },
+      "timing": {
+        "preprocess": 3.8,
+        "inference": 106.1,
+        "postprocess": 1.0,
+        "total": 110.9
+      }
+    },
+    {
+      "resolution": "384x640",
+      "objects": {
+        "SSDs": 3,
+        "USBs": 5,
+        "Cameras": 5,
+        "Camcorders": 2
+      },
+      "timing": {
+        "preprocess": 2.8,
+        "inference": 82.7,
+        "postprocess": 0.9,
+        "total": 86.4
+      }
+    },
+    {
+      "resolution": "384x640",
+      "objects": {
+        "SSDs": 2,
+        "USBs": 6
+      },
+      "timing": {
+        "preprocess": 4.1,
+        "inference": 82.3,
+        "postprocess": 1.0,
+        "total": 87.4
+      }
+    },
+    {
+      "resolution": "640x480",
+      "objects": {
+        "HDDs": 2,
+        "Cameras": 1
+      },
+      "timing": {
+        "preprocess": 3.7,
+        "inference": 118.5,
+        "postprocess": 1.0,
+        "total": 123.2
+      }
+    },
+    {
+      "resolution": "640x384",
+      "objects": {
+        "SSDs": 1,
+        "HDDs": 2
+      },
+      "timing": {
+        "preprocess": 2.9,
+        "inference": 97.6,
+        "postprocess": 1.0,
+        "total": 101.5
+      }
+    },
+    {
+      "resolution": "384x640",
+      "objects": {
+        "SSD": 1,
+        "Tablet PC": 1,
+        "USBs": 4,
+        "Cameras": 2,
+        "Camcorders": 2
+      },
+      "timing": {
+        "preprocess": 4.4,
+        "inference": 86.8,
+        "postprocess": 1.0,
+        "total": 92.2
+      }
+    },
+    {
+      "resolution": "640x544",
+      "objects": {
+        "Laptop": 1
+      },
+      "timing": {
+        "preprocess": 3.4,
+        "inference": 132.5,
+        "postprocess": 1.0,
+        "total": 136.9
+      }
+    },
+    {
+      "resolution": "640x544",
+      "objects": {
+        "Hammers": 3,
+        "Awls": 2,
+        "Plier": 1,
+        "Knifes": 2,
+        "Screwdrivers": 2
+      },
+      "timing": {
+        "preprocess": 4.4,
+        "inference": 122.3,
+        "postprocess": 1.1,
+        "total": 127.8
+      }
+    },
+    {
+      "resolution": "640x480",
+      "objects": {
+        "Tablet PC": 1,
+        "USBs": 3,
+        "HDD": 1,
+        "Cameras": 2
+      },
+      "timing": {
+        "preprocess": 2.7,
+        "inference": 116.0,
+        "postprocess": 1.0,
+        "total": 119.7
+      }
+    },
+    {
+      "resolution": "640x544",
+      "objects": {
+        "Camera": 1
+      },
+      "timing": {
+        "preprocess": 4.2,
+        "inference": 116.4,
+        "postprocess": 0.9,
+        "total": 121.5
+      }
+    },
+    {
+      "resolution": "640x480",
+      "objects": {
+        "SSDs": 2,
+        "USBs": 3,
+        "SD Card": 1
+      },
+      "timing": {
+        "preprocess": 4.7,
+        "inference": 108.9,
+        "postprocess": 1.0,
+        "total": 114.6
+      }
+    },
+    {
+      "resolution": "384x640",
+      "objects": {
+        "SSDs": 2,
+        "USBs": 6
+      },
+      "timing": {
+        "preprocess": 2.7,
+        "inference": 86.2,
+        "postprocess": 0.9,
+        "total": 89.8
+      }
+    },
+    {
+      "resolution": "640x416",
+      "objects": {},
+      "timing": {
+        "preprocess": 2.3,
+        "inference": 103.8,
+        "postprocess": 0.6,
+        "total": 106.7
+      }
+    },
+    {
+      "resolution": "640x480",
+      "objects": {
+        "Laptop": 1
+      },
+      "timing": {
+        "preprocess": 4.6,
+        "inference": 109.8,
+        "postprocess": 1.0,
+        "total": 115.4
+      }
+    },
+    {
+      "resolution": "384x640",
+      "objects": {
+        "SSDs": 4,
+        "USBs": 4,
+        "Cameras": 5,
+        "Camcorders": 3
+      },
+      "timing": {
+        "preprocess": 10.4,
+        "inference": 183.2,
+        "postprocess": 1.5,
+        "total": 195.1
+      }
+    },
+    {
+      "resolution": "640x448",
+      "objects": {
+        "SSDs": 1,
+        "HDDs": 1,
+        "Laptops": 1
+      },
+      "timing": {
+        "preprocess": 3.8,
+        "inference": 106.1,
+        "postprocess": 1.0,
+        "total": 110.9
+      }
+    },
+    {
+      "resolution": "384x640",
+      "objects": {
+        "SSDs": 3,
+        "USBs": 5,
+        "Cameras": 5,
+        "Camcorders": 2
+      },
+      "timing": {
+        "preprocess": 2.8,
+        "inference": 82.7,
+        "postprocess": 0.9,
+        "total": 86.4
+      }
+    },
+    {
+      "resolution": "384x640",
+      "objects": {
+        "SSDs": 2,
+        "USBs": 6
+      },
+      "timing": {
+        "preprocess": 4.1,
+        "inference": 82.3,
+        "postprocess": 1.0,
+        "total": 87.4
+      }
+    },
+    {
+      "resolution": "640x480",
+      "objects": {
+        "HDDs": 2,
+        "Cameras": 4
+      },
+      "timing": {
+        "preprocess": 2.7,
+        "inference": 112.0,
+        "postprocess": 1.0,
+        "total": 115.7
+      }
+    }
+  ]
+}
