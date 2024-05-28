@@ -1,6 +1,6 @@
-# 🍊 공항 위해물품 엑스레이 탐지 서비스
+# 🍊 공항용 엑스레이 위해물품 탐지 서비스
 
-공항 위해 물품을 탐지하는 서비스 입니다.
+공항용 엑스레이에서 위해물품을 탐지하는 서비스 입니다.
 
 <br/>
 
@@ -24,6 +24,12 @@
 ## 📽  시연 영상
 
 https://github.com/5range-AIML/YoloModel/assets/126739852/2227c8e9-810f-4049-aab1-c30a2d410278
+
+ <br/>
+ 
+## 📽  발표 자료 
+
+ https://www.canva.com/design/DAGGGVlXYMA/raDmDzFOM9LzMe3WLzslLw/view?utm_content=DAGGGVlXYMA&utm_campaign=share_your_design&utm_medium=link&utm_source=shareyourdesignpanel
 
  <br/>
 
