@@ -13,6 +13,15 @@
 * [AI Hub 위해물품 엑스레이 이미지](https://aihub.or.kr/aihubdata/data/view.do?currMenu=115&topMenu=100&aihubDataSe=data&dataSetSn=233)
 * 커스텀 데이터셋
 
+### 모델 훈련 환경
+* AWS SageMaker ml.g4dn.12xlarge (vCPU: 48 / 메모리: 192GiB)
+
+### 사용 인프라
+* AWS Cloud9 (IDE)
+* AWS SageMaker (GPU)
+* AWS EC2
+* AWS 
+
 <br/>
 
 ## 🛠  서비스 아키텍처
@@ -28,8 +37,14 @@ https://github.com/5range-AIML/YoloModel/assets/126739852/2227c8e9-810f-4049-aab
  <br/>
  
 ## 📽  발표 자료 
+* PPT
+https://www.canva.com/design/DAGGGVlXYMA/raDmDzFOM9LzMe3WLzslLw/view?utm_content=DAGGGVlXYMA&utm_campaign=share_your_design&utm_medium=link&utm_source=shareyourdesignpanel
 
- https://www.canva.com/design/DAGGGVlXYMA/raDmDzFOM9LzMe3WLzslLw/view?utm_content=DAGGGVlXYMA&utm_campaign=share_your_design&utm_medium=link&utm_source=shareyourdesignpanel
+* 요구사항 정의서 및 클라우드 결제 품의서
+https://docs.google.com/spreadsheets/d/1-mGD72iyYZ2F6ulgyxju-yzlTirUui1QmL-Fys-Qb2M/edit#gid=0
+
+
+
 
  <br/>
 
