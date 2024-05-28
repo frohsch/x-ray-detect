@@ -141,11 +141,6 @@ elif source_radio == settings.VIDEO:
         file_binary = source_video.read()
         with open(file_path, "wb") as temp_file:
             temp_file.write(source_video.getbuffer())
-        # source_video: UploadedFile(file_id='4bd60e05-1ad8-4a58-8e8f-1edac456cb73', name='testVideo.mp4', type='video/mp4', size=8340142, _file_urls=file_id:
-        # "4bd60e05-1ad8-4a58-8e8f-1edac456cb73"                                                                                                   
-        # upload_url: "/_stcore/upload_file/4e73c47f-080e-4b53-9fbf-74e821452099/4bd60e05-1ad8-4a58-8e8f-1edac456cb73"                              
-        # delete_url: "/_stcore/upload_file/4e73c47f-080e-4b53-9fbf-74e821452099/4bd60e05-1ad8-4a58-8e8f-1edac456cb73"                              
-        # ) 
         st.video(source_video)
         helper.play_stored_video(confidence, model, input_path, source_video)
     

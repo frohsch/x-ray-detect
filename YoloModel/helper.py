@@ -20,13 +20,13 @@ def load_model(model_path):
     model = YOLO(model_path)
     return model
 
-# def display_tracker_options():
-#     display_tracker = st.radio("Display Tracker", ('Yes', 'No'))
-#     is_display_tracker = True if display_tracker == 'Yes' else False
-#     if is_display_tracker:
-#         tracker_type = st.radio("Tracker", ("bytetrack.yaml", "botsort.yaml"))
-#         return is_display_tracker, tracker_type
-#     return is_display_tracker, None
+def display_tracker_options():
+    display_tracker = st.radio("Display Tracker", ('Yes', 'No'))
+    is_display_tracker = True if display_tracker == 'Yes' else False
+    if is_display_tracker:
+        tracker_type = st.radio("Tracker", ("bytetrack.yaml", "botsort.yaml"))
+        return is_display_tracker, tracker_type
+    return is_display_tracker, None
 
 
 def _display_detected_frames(conf, model, st_frame, image, is_display_tracking=None, tracker=None):
@@ -79,26 +79,22 @@ def play_stored_video(conf, model, video, source_video):
     Raises:
         None
     """
-    # if(video != None): 
-        # source_vid =f"/home/ec2-user/environment/folder/S3/{video.name}"
-        # is_display_tracker, tracker = True, "bytetrack.yaml"
-        # print("💚💚💚💚💚💚💚💚💚💚💚💚💚💚", source_vid, "💚💚💚💚💚💚💚💚💚💚💚💚💚💚")
-        # print(type(source_vid), "❌❌❌❌❌")
-        # get = source_vid
+    if(video != None): 
+        source_vid =f"/home/ec2-user/environment/folder/S3/{video.name}"
+        is_display_tracker, tracker = True, "bytetrack.yaml"
+        get = source_vid
         
-    # else:
-    # source_vid = st.sidebar.selectbox("Choose a video...", settings.VIDEOS_DICT.keys())
-    is_display_tracker, tracker = True, "bytetrack.yaml"
-    get = settings.VIDEOS_DICT.get(video)
+    else:
+        source_vid = st.sidebar.selectbox("Choose a video...", settings.VIDEOS_DICT.keys())
+        is_display_tracker, tracker = True, "bytetrack.yaml"
+        get = settings.VIDEOS_DICT.get(video)
         
-        # print("💚💚💚💚💚💚💚💚💚💚💚💚💚💚", get, "💚💚💚💚💚💚💚💚💚💚💚💚💚💚")
-
     with open(get, 'rb') as video_file:
-        # st.video(open(get, 'rb'))
+        st.video(open(get, 'rb'))
         video_bytes = video_file.read()
-    # if video_bytes:
+    if video_bytes:
         # todo :- video 열기 수정하기
-        # st.video(video_bytes)
+        st.video(video_bytes)
 
     if st.sidebar.button('Detect Video Objects'):
         try:

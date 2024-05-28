@@ -31,21 +31,6 @@ DEFAULT_DETECT_IMAGE = IMAGES_DIR / 'thumb2.png'
 # Videos config
 VIDEO_DIR = ROOT / 'videos'
 VIDEOS_DICT = {
-    'video_1': VIDEO_DIR / 'testVideox264.mp4',
-    'video_2': VIDEO_DIR / 'testVideox264.mp4',
-    'video_3': VIDEO_DIR / 'testVideox264.mp4',
-    'testVideo': VIDEO_DIR / 'testVideox264.mp4',
-    'test1': VIDEO_DIR / 'test1x264.mp4',
-    'test2': VIDEO_DIR / 'test2x264.mp4',
-    'test3': VIDEO_DIR / 'test3x264.mp4',
-    'test4': VIDEO_DIR / 'test3x264.mp4',
-    'test5': VIDEO_DIR / 'test3x264.mp4',
-    'testVideo.mp4': VIDEO_DIR / 'testVidex264.mp4',
-    'test1.mp4': VIDEO_DIR / 'test1x264.mp4',
-    'test2.mp4': VIDEO_DIR / 'test2x264.mp4',
-    'test3.mp4': VIDEO_DIR / 'test3x264.mp4',
-    'test4.mp4': VIDEO_DIR / 'testVideox264.mp4',
-    'test5.mp4': VIDEO_DIR / 'testVideox264.mp4',
     'test1x264.mp4': VIDEO_DIR / 'test1x264.mp4',
     'test2x264.mp4': VIDEO_DIR / 'test2x264.mp4',
     'test3x264.mp4': VIDEO_DIR / 'test3x264.mp4',
